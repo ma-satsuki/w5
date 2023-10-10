@@ -9,13 +9,13 @@
 <h1>question5</h1>
 
 <p id="msg">Cookieを書きます。</p>
+  
 <script>
-  document.cookie='adress=Nagoya';
-  document.cookie='user=彩月;';
-  document.cookie='user=satsuki; max-age=3600;";
+document.cookie='adress=Nagoya';
+document.cookie='user=satsuki';
 
-  let e=document.getElementById('msg');
-  e.insertAdjacentHTML('afterend','<p>'+document.cookie+'</p>');
+let e=document.getElementById('msg');
+e.insertAdjacentHTML('afterend','<p>'+document.cookie+'</p>');
 </script>
 
 </body>
